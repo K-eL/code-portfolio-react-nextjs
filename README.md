@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Code Portfolio - React/Nextjs WebApp (Work in Progress)
 
-## Getting Started
+Welcome to my React/Nextjs Code Portfolio WebApp Project, a cutting-edge software solution designed to showcase my skills and experience as a software developer.
+This project is built with robust and scalable architecture, ensuring high performance and reliability, using concepts such as Domain-Driven Design (DDD), Clean Architecture, and SOLID principles.
 
-First, run the development server:
+Tools: Linux (Manjaro), VSCode;
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📚 Table of Contents
+
+- [Features](#🎁-features)
+- [Getting Started](#🚀-getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running Tests](#🧪-running-tests)
+- [License](#📜-license)
+- [Contact](#📧-contact)
+
+## 🎁 Features
+
+- **@core**: Our core application logic resides here.
+- **app**: This is our interface to the outside world, the web interface.
+
+## 🚀 Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repo
+```sh
+git clone https://github.com/K-eL/code-portfolio-react-nextjs.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Build the project
+```sh
+cd code-portfolio-react-nextjs
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Running the project
+```sh
+npm install
+npm run json-server
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 🧪 Running Tests
+```sh
+npm run test
+```
 
-## Learn More
+### 📜 License
+Distributed under the MIT License. See LICENSE for more information.
 
-To learn more about Next.js, take a look at the following resources:
+### 📧 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Email: [c.thorschmidt@pm.me](mailto:c.thorschmidt@pm.me)
+- LinkedIn: [linkedin.com/in/claudiothorschmidt](https://www.linkedin.com/in/claudiothorschmidt/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+Thank you for visiting my project. I look forward to receiving your feedback.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding! 🚀
