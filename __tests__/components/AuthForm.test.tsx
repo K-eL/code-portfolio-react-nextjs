@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
-import { AuthForm } from '@app/components/AuthForm';
+import { AuthForm } from '@/app/auth/components/AuthForm';
 
 describe('AuthForm', () => {
   test('renders Login header when formType is login', () => {

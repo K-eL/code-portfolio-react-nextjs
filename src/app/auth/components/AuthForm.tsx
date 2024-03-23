@@ -1,6 +1,6 @@
 'use client';
 
-import { InputField } from './InputField';
+import { InputField } from '../../components/InputField';
 
 type AuthFormProps = {
   formType: 'login' | 'register';
@@ -90,7 +90,7 @@ export const AuthForm: React.FC<AuthFormProps> = ({
           <strong className='font-bold'>Error!</strong>
           <ul>
             {errors.map((error, index) => (
-              <li key={index}>{error}</li>
+              <li key={index}>- {error}</li>
             ))}
           </ul>
         </div>
